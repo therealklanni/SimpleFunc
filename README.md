@@ -14,12 +14,23 @@ npm install simplefunc
 ## Usage
 
 Reference in your program:
-
 ```js
 var simplefunc = require('simplefunc');
 ```
 
+Encoding a value
+```js
+var encoded = simplefunc.encode(value);
+```
+Most value are encoded as themselves. The current implementation returns an encoded result if the original value is
+an object and it has functions. If value is an object with functions, an object is returned, with two properties:
+- `_obj`: with the properties of the original value, that are NOT functions.
+- `_fns`: with the properties of the original value that ARE functions, encoding in an array with its parameters and code
+If the value to encode is a function, an object is returned with an attribute `_fn` with an array containing the original
+function arguments and code serialized to string.
+
 TBD
+
 ## Development
 
 ```
@@ -36,6 +47,7 @@ TBD
 ## To do
 
 - Samples
+- Deep processing
 
 ## Contribution
 
