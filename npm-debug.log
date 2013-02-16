@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '-f' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose read json C:\Git\SimpleFunc\package.json
+7 verbose cache add [ '.', null ]
+8 silly cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-3616\\1361016986275-0.0008253392297774553\\tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\tmp.tgz
+15 verbose folder .
+16 info prepublish simplefunc@0.0.2
+17 silly lockFile 591b0b4b-75-0-0008253392297774553-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\tmp.tgz
+18 verbose lock C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\591b0b4b-75-0-0008253392297774553-tmp-tgz.lock
+19 silly lockFile 591b0b4b-75-0-0008253392297774553-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\tmp.tgz
+20 verbose tar unpack C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\tmp.tgz
+21 silly lockFile e919fddf-75-0-0008253392297774553-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\package
+22 verbose lock C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\package C:\Users\Administrator\AppData\Roaming\npm-cache\e919fddf-75-0-0008253392297774553-package.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry package.json
+25 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+26 silly gunzTarPerm extractEntry .npmignore
+27 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+32 silly gunzTarPerm extractEntry test.js
+33 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+34 silly gunzTarPerm extractEntry lib/simplefunc.js
+35 silly gunzTarPerm modified mode [ 'lib/simplefunc.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry test/decode.js
+37 silly gunzTarPerm modified mode [ 'test/decode.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry test/encode.js
+39 silly gunzTarPerm modified mode [ 'test/encode.js', 438, 420 ]
+40 silly gunzTarPerm extractEntry test/json.js
+41 silly gunzTarPerm modified mode [ 'test/json.js', 438, 420 ]
+42 verbose read json C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\package\package.json
+43 silly lockFile e919fddf-75-0-0008253392297774553-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\package
+44 verbose from cache C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\package\package.json
+45 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\simplefunc\\0.0.2\\package.tgz',
+45 verbose tar pack   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-3616\\1361016986275-0.0008253392297774553\\package' ]
+46 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz
+47 verbose folder C:\Users\ADMINI~1\AppData\Local\Temp\npm-3616\1361016986275-0.0008253392297774553\package
+48 silly lockFile e67ba762-che-simplefunc-0-0-2-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz
+49 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\e67ba762-che-simplefunc-0-0-2-package-tgz.lock
+50 silly lockFile e67ba762-che-simplefunc-0-0-2-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz
+51 silly lockFile d1e93163-m-cache-simplefunc-0-0-2-package C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package
+52 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package C:\Users\Administrator\AppData\Roaming\npm-cache\d1e93163-m-cache-simplefunc-0-0-2-package.lock
+53 silly lockFile d1e93163-m-cache-simplefunc-0-0-2-package C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package
+54 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz
+55 silly lockFile d1e93163-m-cache-simplefunc-0-0-2-package C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package
+56 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package C:\Users\Administrator\AppData\Roaming\npm-cache\d1e93163-m-cache-simplefunc-0-0-2-package.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+64 silly gunzTarPerm extractEntry LICENSE
+65 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+66 silly gunzTarPerm extractEntry test.js
+67 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry lib/simplefunc.js
+69 silly gunzTarPerm modified mode [ 'lib/simplefunc.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry test/decode.js
+71 silly gunzTarPerm modified mode [ 'test/decode.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry test/encode.js
+73 silly gunzTarPerm modified mode [ 'test/encode.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry test/json.js
+75 silly gunzTarPerm modified mode [ 'test/json.js', 438, 420 ]
+76 verbose read json C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package\package.json
+77 silly lockFile d1e93163-m-cache-simplefunc-0-0-2-package C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package
+78 silly shasum updated bytes 3847
+79 info shasum e8488ee613d9de73662f784fe971892de452bfd4
+79 info shasum C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz
+80 verbose from cache C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package\package.json
+81 verbose chmod C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz 644
+82 silly chown skipping for windows C:\Users\Administrator\AppData\Roaming\npm-cache\simplefunc\0.0.2\package.tgz
+83 silly lockFile 3a52ce78- .
+84 silly publish { name: 'simplefunc',
+84 silly publish   description: 'Simple object with functions encode/decode, serialization/deserialization',
+84 silly publish   keywords: [ 'mapreduce', 'algorithm', 'javascript', 'distributed' ],
+84 silly publish   version: '0.0.2',
+84 silly publish   author:
+84 silly publish    { name: 'Angel \'Java\' Lopez',
+84 silly publish      email: 'webmaster@ajlopez.com',
+84 silly publish      url: 'http://www.ajlopez.com' },
+84 silly publish   repository: { type: 'git', url: 'git://github.com/ajlopez/SimpleFunc.git' },
+84 silly publish   main: './lib/simplefunc.js',
+84 silly publish   engines: { node: '>= 0.6.0 && < 0.9.0' },
+84 silly publish   scripts: { test: 'node ./test.js' },
+84 silly publish   dependencies: {},
+84 silly publish   devDependencies: {},
+84 silly publish   readme: '# SimpleFunc\r\n\r\nSimple object with functions encode/decode, serialization/deserialization.\r\n\r\n## Installation\r\n\r\nVia npm on Node:\r\n\r\n```\r\nnpm install simplefunc\r\n```\r\n\r\n\r\n## Usage\r\n\r\nSometimes, you need to define an object with attributes and functions, and send it to other machine or process. Functions are\r\nnot serialized, so, an special processing is needed. SimpleFunc is a helper to encode objects with instance funcions so they\r\ncan be serialized/deserializas from/to JSON. You can encode, decode without using JSON, too.\r\n\r\nReference in your program:\r\n```js\r\nvar simplefunc = require(\'simplefunc\');\r\n```\r\n\r\nEncoding a value\r\n```js\r\nvar encoded = simplefunc.encode(value);\r\n```\r\nMost value are encoded as themselves. The current implementation returns an encoded result if the original value is\r\nan object and it has functions. If value is an object with functions, an object is returned, with two properties:\r\n\r\n- `_obj`: with the properties of the original value, that are NOT functions.\r\n- `_fns`: with the properties of the original value that ARE functions, encoding in an array with its parameters and code\r\n\r\nOnly the first level of properties is encoded: no attempt to make a deep encode (maybe in next versions).\r\n\r\nIf the value to encode is a function, an object is returned with an attribute `_fn` with an array containing the original\r\nfunction arguments and code serialized to string.\r\n\r\nEncoding and decoding a value\r\n```js\r\nvar encoded = simplefunc.encode(value);\r\nvar newvalue = simplefunc.decode(encoded);\r\n```\r\n\r\nYou can convert a value to/from a JSON string:\r\n```js\r\nvar json = simplefunc.toJson(value);\r\nvar newvalue = simplefunc.fromJson(encoded);\r\n```\r\n\r\n## Development\r\n\r\n```\r\ngit clone git://github.com/ajlopez/SimpleFunc.git\r\ncd SimpleFunc\r\nnpm install\r\nnpm test\r\n```\r\n\r\n## Samples\r\n\r\nTBD\r\n\r\n## To do\r\n\r\n- Samples\r\n- Deep processing\r\n\r\n## Versions\r\n\r\n- 0.0.1 Published.\r\n- 0.0.2 Published. Fixed null processing.\r\n\r\n## Contribution\r\n\r\nFeel free to [file issues](https://github.com/ajlopez/SimpleFunc) and submit\r\n[pull requests](https://github.com/ajlopez/SimpleFunc/pulls) � contributions are\r\nwelcome.\r\n\r\nIf you submit a pull request, please be sure to add or update corresponding\r\ntest cases, and ensure that `npm test` continues to pass.\r\n\r\n',
+84 silly publish   readmeFilename: 'README.md',
+84 silly publish   _id: 'simplefunc@0.0.2',
+84 silly publish   dist: { shasum: 'e8488ee613d9de73662f784fe971892de452bfd4' } }
+85 verbose url raw simplefunc
+86 verbose url resolving [ 'https://registry.npmjs.org/', './simplefunc' ]
+87 verbose url resolved https://registry.npmjs.org/simplefunc
+88 info trying registry request attempt 1 at 09:16:26
+89 http PUT https://registry.npmjs.org/simplefunc
+90 http 409 https://registry.npmjs.org/simplefunc
+91 verbose url raw simplefunc
+92 verbose url resolving [ 'https://registry.npmjs.org/', './simplefunc' ]
+93 verbose url resolved https://registry.npmjs.org/simplefunc
+94 info trying registry request attempt 1 at 09:16:29
+95 http GET https://registry.npmjs.org/simplefunc
+96 http 200 https://registry.npmjs.org/simplefunc
+97 verbose url raw simplefunc/0.0.2/-tag/latest
+98 verbose url resolving [ 'https://registry.npmjs.org/',
+98 verbose url resolving   './simplefunc/0.0.2/-tag/latest' ]
+99 verbose url resolved https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+100 info trying registry request attempt 1 at 09:16:30
+101 http PUT https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+102 http 500 https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+103 info retry will retry, error on last attempt: Error: case_clause {[]}: simplefunc/0.0.2/-tag/latest
+104 info trying registry request attempt 2 at 09:16:42
+105 http PUT https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+106 http 500 https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+107 info retry will retry, error on last attempt: Error: case_clause {[]}: simplefunc/0.0.2/-tag/latest
+108 info trying registry request attempt 3 at 09:17:44
+109 http PUT https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+110 http 500 https://registry.npmjs.org/simplefunc/0.0.2/-tag/latest
+111 error publish Error sending version data
+112 error Error: case_clause {[]}: simplefunc/0.0.2/-tag/latest
+112 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:259:14)
+112 error     at Request.init.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:120:22)
+112 error     at Request.EventEmitter.emit (events.js:99:17)
+112 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:648:16)
+112 error     at Request.EventEmitter.emit (events.js:126:20)
+112 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:610:14)
+112 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+112 error     at IncomingMessage._emitEnd (http.js:366:10)
+112 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+112 error     at CleartextStream.socketOnData [as ondata] (http.js:1367:20)
+113 error If you need help, you may report this log at:
+113 error     <http://github.com/isaacs/npm/issues>
+113 error or email it to:
+113 error     <npm-@googlegroups.com>
+114 error System Windows_NT 6.0.6002
+115 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "-f"
+116 error cwd C:\Git\SimpleFunc
+117 error node -v v0.8.15
+118 error npm -v 1.1.66
+119 verbose exit [ 1, true ]
