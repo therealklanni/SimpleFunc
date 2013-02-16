@@ -1,7 +1,7 @@
 { "name": "simplefunc"
 , "description": "Simple object with functions encode/decode, serialization/deserialization"
 , "keywords": [ "mapreduce", "algorithm", "javascript", "distributed" ]
-, "version": "0.0.1"
+, "version": "0.0.2"
 , "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
 , "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleFunc.git" }
 , "main": "./lib/simplefunc.js"

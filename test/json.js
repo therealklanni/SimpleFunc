@@ -50,3 +50,11 @@ assert.equal(result.b, 2);
 assert.ok(result.foo);
 assert.equal(typeof result.foo, 'function');
 assert.equal(result.foo(1,2), 3);
+
+// null toJson
+
+assert.equal(simplefunc.toJson(null), "null");
+
+// null fromJson
+
+assert.equal(simplefunc.fromJson("null"), null);

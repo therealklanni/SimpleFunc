@@ -43,7 +43,7 @@ var encoded = simplefunc.encode(value);
 var newvalue = simplefunc.decode(encoded);
 ```
 
-You can convert to/from a JSON string:
+You can convert a value to/from a JSON string:
 ```js
 var json = simplefunc.toJson(value);
 var newvalue = simplefunc.fromJson(encoded);
@@ -66,6 +66,11 @@ TBD
 
 - Samples
 - Deep processing
+
+## Versions
+
+- 0.0.1 Published.
+- 0.0.2 Published. Fixed null processing.
 
 ## Contribution
 

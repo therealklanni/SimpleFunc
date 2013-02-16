@@ -45,3 +45,11 @@ assert.equal(result.b, 2);
 assert.ok(result.foo);
 assert.equal(typeof result.foo, 'function');
 assert.equal(result.foo(1,2), 3);
+
+// encode null
+
+assert.equal(simplefunc.encode(null), null);
+
+// decode null
+
+assert.equal(simplefunc.decode(null), null);
