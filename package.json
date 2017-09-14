@@ -18,7 +18,7 @@
     "node": ">= 6.9.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
+    "precommit": "lint-staged && npm test",
     "lint:fix": "eslint --fix --quiet --",
     "test": "node ./test.js"
   },
