@@ -1,16 +1,40 @@
-{ "name": "simplefunc"
-, "description": "Simple object with functions encode/decode, serialization/deserialization"
-, "keywords": [ "serialization", "function", "json", "nodejs" ]
-, "version": "0.0.2"
-, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
-, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleFunc.git" }
-, "main": "./lib/simplefunc.js"
-, "engines": { "node": ">= 0.6.0 && < 0.9.0" }
-, "scripts": {
+{
+  "name": "simplefunc",
+  "description": "Simple object with functions encode/decode, serialization/deserialization",
+  "keywords": [
+    "serialization",
+    "function",
+    "json",
+    "nodejs"
+  ],
+  "version": "1.0.0",
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/therealklanni/simplefunc.git"
+  },
+  "main": "./lib/simplefunc.js",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint:fix": "eslint --fix --quiet --",
     "test": "node ./test.js"
-  }
-, "dependencies": {
-  }
-, "devDependencies": {
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.1.3",
+    "prettier": "^1.7.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix --quiet",
+      "git add"
+    ]
   }
 }
